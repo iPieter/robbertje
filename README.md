@@ -22,5 +22,11 @@ We are also continuously working on releasing better-performing models, so watch
 # Recreating our experiments
 
 ## Distillation
+The distillation procedure uses our own [distillation library](https://github.com/iPieter/universal-distillation). This library uses [Pytorch Lightning](https://www.pytorchlightning.ai) under the hood, so it should automatically be set up to use all the available GPUs or TPUs without any issues. If you encounter any problems with the distillation library, please open an [issue in that repo](https://github.com/iPieter/universal-distillation/issues).
+
+### Getting the data
+You can download the shuffled and non-shuffled version of the OSCAR corpus [here](https://oscar-corpus.com). At the time of training (early 2021), the dataset was available in sharded tars. The last shard is used as a held-out evaluation set, irregardless of training set size. We specified the training set size, which is obtained with `head -c <size>`. 
+
+
 
 ## Fine-tuning
