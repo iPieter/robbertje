@@ -8,6 +8,7 @@ RobBERTje is a collection of distilled models based on [RobBERT](http://github.c
 We are also continuously working on releasing better-performing models, so watch this page for updates.
 
 # News
+- **February 21, 2022**: Our paper about RobBERTje has been published in [volume 11 of CLIN journal](https://www.clinjournal.org/clinj/article/view/131)!
 - **July 2, 2021**: Publicly released 4 RobBERTje models.
 - **May 12, 2021**: RobBERTje was accepted at [CLIN31](https://www.clin31.ugent.be) for an oral presentation!
 
